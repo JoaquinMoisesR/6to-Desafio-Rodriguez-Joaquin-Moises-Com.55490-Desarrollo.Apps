@@ -30,7 +30,7 @@ const Profile = () => {
         allowsEditing: true,
         aspect: [9, 16],
         base64: true,
-        quality: 0.4,
+        quality: 0.9,
       })
       if (!result.canceled) {
         dispatch(setCameraImage(`data:image/jpeg;base64,${result.assets[0].base64}`))
